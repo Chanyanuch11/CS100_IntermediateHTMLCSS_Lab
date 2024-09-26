@@ -35,7 +35,6 @@ By the end of this lab, students will update an HTML and CSS file for the Grandm
 - In the CSS (`styles1.css`), the navigation is styled to be horizontal using inline-block:
 ```css
 nav ul li {
-  display: inline-block;
   margin: 0 15px;
 }
 ```
@@ -46,6 +45,10 @@ nav ul li {
   - Adjust the `display` property so that it displays list items vertically
   - Adjust the margin so that it looks appropriate (more spacing between list items).
 ```css
+nav ul li {
+    display: block;
+    margin: 20px 0; /*ตัวแรกแนวตั้ง ตัวสองแนวนอน*/  
+}
 ```
 
 - Modify the CSS `nav` style:

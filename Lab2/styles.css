@@ -38,8 +38,8 @@ nav ul {
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: block;
+    margin: 20px 0; /*ตัวแรกแนวตั้ง ตัวสองแนวนอน*/  
 }
 
 nav ul li a {
